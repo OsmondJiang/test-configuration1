@@ -8,16 +8,14 @@
       "publishing"
     ]
   },
-  "docsets_to_publish": [
-    {
-      "docset_name": "azure"
-    }
-  ],
   "branches_to_filter": [
     "live",
     "master-sxs"
   ],
   "continue_with_document_error": true,
-  "git_repo_url": "https://github.com/OsmondJiang/test-configuration1",
-  "branch_name": "live"
+  "docsets_to_publish": [
+    {
+      "docset_name": "azure"
+    }
+  ]
 }
