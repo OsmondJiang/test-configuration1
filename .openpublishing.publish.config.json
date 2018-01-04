@@ -1,21 +1,3 @@
 {
-  "branch_target_mapping": {
-    "live": [
-      "publishing",
-      "pdf"
-    ],
-    "master": [
-      "publishing"
-    ]
-  },
-  "docsets_to_publish": [
-    {
-      "docset_name": "azure"
-    }
-  ],
-  "branches_to_filter": [
-    "live",
-    "master-sxs"
-  ],
-  "continue_with_document_error": true
+  "test": "update test------------\n--------"
 }
