@@ -17,7 +17,5 @@
     "live",
     "master-sxs"
   ],
-  "continue_with_document_error": true,
-  "git_repo_url": "https://github.com/OsmondJiang/test-configuration1",
-  "branch_name": "live"
+  "continue_with_document_error": true
 }
