@@ -43,5 +43,6 @@
     ]
   },
   "need_generate_pdf_url_template": false,
-  "continue_with_document_error": true
+  "continue_with_document_error": true,
+  "test_field": "test_value"
 }
