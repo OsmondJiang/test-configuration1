@@ -3,19 +3,12 @@
     "content": [
       {
         "files": [
-          "**/*.md",
-          "**/*.yml"
+          "**\\*.yml"
         ],
         "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "_themes/**",
-          "_themes.pdf/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices"
-        ]
+          "**\\*.xml"
+        ],
+        "dest": "azure-dest"
       }
     ],
     "resource": [
