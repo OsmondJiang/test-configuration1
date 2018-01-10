@@ -19,7 +19,7 @@
   ],
   "notification_subscribers": [],
   "branches_to_filter": [
-    null,
+    "live",
     "master-sxs"
   ],
   "skip_source_output_uploading": false,
@@ -33,7 +33,15 @@
       "branch_mapping": {}
     }
   ],
-  "branch_target_mapping": "publishing",
+  "branch_target_mapping": {
+    "live": [
+      "publishing",
+      "pdf"
+    ],
+    "master": [
+      "publishing"
+    ]
+  },
   "need_generate_pdf_url_template": false,
   "continue_with_document_error": true
 }
