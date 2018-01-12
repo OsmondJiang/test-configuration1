@@ -1,16 +1,5 @@
 {
   "build": {
-    "content": [
-      {
-        "files": [
-          "**\\*.yml"
-        ],
-        "exclude": [
-          "**\\*.xml"
-        ],
-        "dest": "azure-dest"
-      }
-    ],
     "resource": [
       {
         "files": [
@@ -33,6 +22,17 @@
     },
     "fileMetadata": {},
     "template": [],
-    "dest": "test-configuration1"
+    "dest": "test-configuration1",
+    "content": [
+      {
+        "files": [
+          "**\\*.yml"
+        ],
+        "exclude": [
+          "**\\*.xml"
+        ],
+        "dest": "azure-dest"
+      }
+    ]
   }
 }
