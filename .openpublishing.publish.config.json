@@ -18,13 +18,7 @@
     }
   ],
   "notification_subscribers": [],
-  "branches_to_filter": [
-    "live",
-    "master-sxs"
-  ],
   "skip_source_output_uploading": false,
-  "need_preview_pull_request": false,
-  "contribution_branch_mappings": {},
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
@@ -33,6 +27,14 @@
       "branch_mapping": {}
     }
   ],
+  "need_generate_pdf_url_template": false,
+  "continue_with_document_error": true,
+  "branches_to_filter": [
+    "live",
+    "master-sxs"
+  ],
+  "need_preview_pull_request": false,
+  "contribution_branch_mappings": {},
   "branch_target_mapping": {
     "live": [
       "publishing",
@@ -41,7 +43,5 @@
     "master": [
       "publishing"
     ]
-  },
-  "need_generate_pdf_url_template": false,
-  "continue_with_document_error": true
+  }
 }
