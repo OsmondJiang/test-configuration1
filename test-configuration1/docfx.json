@@ -1,5 +1,10 @@
 {
   "build": {
+    "overwrite": [],
+    "externalReference": [],
+    "fileMetadata": {},
+    "template": [],
+    "dest": "test-configuration1",
     "content": [
       {
         "files": [
@@ -32,14 +37,9 @@
         ]
       }
     ],
-    "overwrite": [],
-    "externalReference": [],
     "globalMetadata": {
       "breadcrumb_path": "/test-configuration1/breadcrumb/toc.json",
       "extendBreadcrumb": true
-    },
-    "fileMetadata": {},
-    "template": [],
-    "dest": "test-configuration1"
+    }
   }
 }
