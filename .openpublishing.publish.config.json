@@ -13,7 +13,7 @@
       "locale": "en-us",
       "moniker_ranges": [],
       "open_to_public_contributors": true,
-      "build_entry_point": "docs",
+      "build_entry_point": "op",
       "template_folder": "_themes"
     }
   ],
