@@ -37,6 +37,11 @@
         ]
       }
     ],
-    "globalMetadata": {}
+    "globalMetadata": {
+      "breadcrumb_path": "/test-configuration1/breadcrumb/toc.json",
+      "extendBreadcrumb": true,
+      "aaa": "111",
+      "bb": []
+    }
   }
 }
