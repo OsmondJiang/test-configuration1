@@ -30,18 +30,24 @@
   "need_generate_pdf_url_template": false,
   "continue_with_document_error": true,
   "branches_to_filter": [
-    "live",
-    "master-sxs"
+    "exist",
+    "delete-sxs",
+    "add",
+    "test-test"
   ],
   "need_preview_pull_request": false,
-  "contribution_branch_mappings": {},
+  "contribution_branch_mappings": {
+    "exist-sxs": "exist",
+    "delete-sxs": "delete",
+    "add-sxs": "add",
+    "test-test-sxs": "test-test"
+  },
   "branch_target_mapping": {
-    "live": [
-      "publishing",
-      "pdf"
-    ],
     "master": [
-      "publishing"
+      "Intellisense"
+    ],
+    "live": [
+      "Publish"
     ]
   }
 }
