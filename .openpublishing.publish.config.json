@@ -1,8 +1,9 @@
 {
+  "skip_source_output_uploading": false,
   "docsets_to_publish": [
     {
-      "docset_name": "test-configuration-e2e1",
-      "build_source_folder": "test-configuration-e2e1",
+      "docset_name": "test-configuration1",
+      "build_source_folder": "test-configuration1",
       "locale": "en-us",
       "moniker_ranges": [],
       "open_to_public_contributors": true,
@@ -10,8 +11,8 @@
       "template_folder": "_themes"
     },
     {
-      "docset_name": "test-configuration-e2e2",
-      "build_source_folder": "test-configuration-e2e2",
+      "docset_name": "test-configuration1",
+      "build_source_folder": "test-configuration1",
       "locale": "en-us",
       "moniker_ranges": [],
       "open_to_public_contributors": true,
@@ -19,7 +20,6 @@
       "template_folder": "_themes"
     }
   ],
-  "skip_source_output_uploading": false,
   "notification_subscribers": [],
   "branches_to_filter": [
     "exist",
