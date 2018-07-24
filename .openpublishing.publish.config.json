@@ -30,10 +30,10 @@
   "need_generate_pdf_url_template": false,
   "continue_with_document_error": true,
   "branches_to_filter": [
-    "exist",
     "delete-sxs",
     "add",
-    "test-test"
+    "exist-sxs",
+    "test-test-sxs"
   ],
   "need_preview_pull_request": false,
   "contribution_branch_mappings": {
