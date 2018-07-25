@@ -1,40 +1,4 @@
 {
-  "docsets_to_publish": [
-    {
-      "build_source_folder": "test-configuration1",
-      "build_output_subfolder": "test-configuration1",
-      "locale": "en-us",
-      "monikers": [],
-      "moniker_ranges": [],
-      "open_to_public_contributors": true,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes",
-      "docset_name": "azure"
-    }
-  ],
-  "notification_subscribers": [],
-  "skip_source_output_uploading": false,
-  "need_preview_pull_request": false,
-  "contribution_branch_mappings": {},
-  "dependent_repositories": [
-    {
-      "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft",
-      "branch": "master",
-      "branch_mapping": {}
-    }
-  ],
-  "need_generate_pdf_url_template": false,
-  "branches_to_filter": [
-    "live",
-    "master-sxs"
-  ],
-  "continue_with_document_error": true,
   "branch_target_mapping": {
     "live": [
       "publishing",
@@ -43,5 +7,41 @@
     "master": [
       "publishing"
     ]
-  }
+  },
+  "branches_to_filter": [
+    "live",
+    "master-sxs"
+  ],
+  "continue_with_document_error": true,
+  "contribution_branch_mappings": {},
+  "dependent_repositories": [
+    {
+      "branch": "master",
+      "branch_mapping": {},
+      "path_to_root": "_themes",
+      "url": "https://github.com/Microsoft/templates.docs.msft"
+    }
+  ],
+  "docsets_to_publish": [
+    {
+      "build_entry_point": "docs",
+      "build_output_subfolder": "test-configuration1",
+      "build_source_folder": "test-configuration1",
+      "docset_name": "azure",
+      "locale": "en-us",
+      "moniker_ranges": [],
+      "monikers": [],
+      "open_to_public_contributors": true,
+      "template_folder": "_themes",
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      }
+    }
+  ],
+  "need_generate_pdf_url_template": false,
+  "need_preview_pull_request": false,
+  "notification_subscribers": [],
+  "skip_source_output_uploading": false
 }
