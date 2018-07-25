@@ -1,37 +1,27 @@
 {
   "docsets_to_publish": [
     {
+      "docset_name": "test-configuration1",
+      "build_source_folder": "test-configuration1",
       "build_output_subfolder": "test-configuration1",
+      "locale": "en-us",
       "monikers": [],
+      "moniker_ranges": [],
+      "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
         "RestApi": "Content"
       },
-      "docset_name": "test-configuration1",
-      "build_source_folder": "test-configuration1",
-      "locale": "en-us",
-      "moniker_ranges": [],
-      "open_to_public_contributors": true,
       "build_entry_point": "docs",
       "template_folder": "_themes"
     }
   ],
-  "skip_source_output_uploading": false,
   "notification_subscribers": [],
-  "branches_to_filter": [
-    "delete-sxs",
-    "add",
-    "exist-sxs",
-    "test-test-sxs"
-  ],
+  "branches_to_filter": [],
+  "skip_source_output_uploading": false,
   "need_preview_pull_request": false,
-  "contribution_branch_mappings": {
-    "exist-sxs": "exist",
-    "delete-sxs": "delete",
-    "add-sxs": "add",
-    "test-test-sxs": "test-test"
-  },
+  "contribution_branch_mappings": {},
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
@@ -40,13 +30,6 @@
       "branch_mapping": {}
     }
   ],
-  "branch_target_mapping": {
-    "master": [
-      "Intellisense"
-    ],
-    "live": [
-      "Publish"
-    ]
-  },
+  "branch_target_mapping": {},
   "need_generate_pdf_url_template": false
 }
