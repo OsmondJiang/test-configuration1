@@ -1,38 +1,38 @@
 {
   "build": {
+    "content": [
+      {
+        "dest": "azure-dest",
+        "exclude": [
+          "**\\*.xml"
+        ],
+        "files": [
+          "**\\*.yml"
+        ]
+      }
+    ],
+    "dest": "test-configuration1",
+    "externalReference": [],
+    "fileMetadata": {},
+    "globalMetadata": {
+      "breadcrumb_path": "/test-configuration1/breadcrumb/toc.json",
+      "extendBreadcrumb": true
+    },
+    "overwrite": [],
     "resource": [
       {
-        "files": [
-          "**/*.png",
-          "**/*.jpg"
-        ],
         "exclude": [
           "**/obj/**",
           "**/includes/**",
           "_themes/**",
           "_themes.pdf/**"
+        ],
+        "files": [
+          "**/*.png",
+          "**/*.jpg"
         ]
       }
     ],
-    "overwrite": [],
-    "externalReference": [],
-    "globalMetadata": {
-      "breadcrumb_path": "/test-configuration1/breadcrumb/toc.json",
-      "extendBreadcrumb": true
-    },
-    "fileMetadata": {},
-    "template": [],
-    "dest": "test-configuration1",
-    "content": [
-      {
-        "files": [
-          "**\\*.yml"
-        ],
-        "exclude": [
-          "**\\*.xml"
-        ],
-        "dest": "azure-dest"
-      }
-    ]
+    "template": []
   }
 }
