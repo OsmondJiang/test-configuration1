@@ -20,7 +20,7 @@
       "template_folder": "_themes"
     }
   ],
-  "notification_subscribers": [],
+  "notification_subscribers": {},
   "branches_to_filter": [
     "exist",
     "delete-sxs",
@@ -39,7 +39,7 @@
       "path_to_root": "_themes",
       "url": "https://github.com/Microsoft/templates.docs.msft",
       "branch": "master",
-      "branch_mapping": []
+      "branch_mapping": {}
     }
   ],
   "branch_target_mapping": {
