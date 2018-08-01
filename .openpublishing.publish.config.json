@@ -1,4 +1,18 @@
 {
+  "branch_target_mapping": {
+    "live": [
+      "publishing",
+      "pdf"
+    ],
+    "master": [
+      "publishing"
+    ]
+  },
+  "branches_to_filter": [
+    "live",
+    "master-sxs"
+  ],
+  "continue_with_document_error": true,
   "contribution_branch_mappings": {},
   "dependent_repositories": [
     {
@@ -13,6 +27,7 @@
       "build_entry_point": "docs",
       "build_output_subfolder": "test-configuration1",
       "build_source_folder": "test-configuration1",
+      "docset_name": "azure",
       "locale": "en-us",
       "moniker_ranges": [],
       "monikers": [],
@@ -22,26 +37,11 @@
         "Conceptual": "Content",
         "ManagedReference": "Content",
         "RestApi": "Content"
-      },
-      "docset_name": "azure"
+      }
     }
   ],
   "need_generate_pdf_url_template": false,
   "need_preview_pull_request": false,
   "notification_subscribers": [],
-  "skip_source_output_uploading": false,
-  "branches_to_filter": [
-    "live",
-    "master-sxs"
-  ],
-  "continue_with_document_error": true,
-  "branch_target_mapping": {
-    "live": [
-      "publishing",
-      "pdf"
-    ],
-    "master": [
-      "publishing"
-    ]
-  }
+  "skip_source_output_uploading": false
 }
