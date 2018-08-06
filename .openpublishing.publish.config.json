@@ -1,53 +1,36 @@
 {
+  "branch_target_mapping": {},
+  "branches_to_filter": [],
+  "continue_with_document_error": true,
+  "contribution_branch_mappings": {},
+  "dependent_repositories": [
+    {
+      "branch": "master",
+      "branch_mapping": {},
+      "path_to_root": "_themes",
+      "url": "https://github.com/Microsoft/templates.docs.msft"
+    }
+  ],
   "docsets_to_publish": [
     {
-      "docset_name": "azure",
-      "build_source_folder": "test-configuration1",
+      "build_entry_point": "docs",
       "build_output_subfolder": "test-configuration1",
+      "build_source_folder": "test-configuration1",
+      "docset_name": "azure",
       "locale": "en-us",
-      "monikers": [],
       "moniker_ranges": [],
+      "monikers": [],
       "open_to_public_contributors": true,
+      "template_folder": "_themes",
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
         "RestApi": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes"
-    }
-  ],
-  "notification_subscribers": [],
-  "skip_source_output_uploading": false,
-  "dependent_repositories": [
-    {
-      "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft",
-      "branch": "master",
-      "branch_mapping": {}
+      }
     }
   ],
   "need_generate_pdf_url_template": false,
-  "continue_with_document_error": true,
-  "branches_to_filter": [
-    "delete-sxs",
-    "add",
-    "exist-sxs",
-    "test-test-sxs"
-  ],
-  "need_preview_pull_request": false,
-  "contribution_branch_mappings": {
-    "exist-sxs": "exist",
-    "delete-sxs": "delete",
-    "add-sxs": "add",
-    "test-test-sxs": "test-test"
-  },
-  "branch_target_mapping": {
-    "master": [
-      "Intellisense"
-    ],
-    "live": [
-      "Publish"
-    ]
-  }
+  "need_preview_pull_request": true,
+  "notification_subscribers": [],
+  "skip_source_output_uploading": false
 }
