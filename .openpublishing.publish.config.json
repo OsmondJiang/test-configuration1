@@ -12,7 +12,7 @@
   ],
   "docsets_to_publish": [
     {
-      "build_entry_point": "docs",
+      "build_entry_point": "op",
       "build_output_subfolder": "test-configuration1",
       "build_source_folder": "eden20180903",
       "docset_name": "eden20180903",
