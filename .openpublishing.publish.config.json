@@ -1,5 +1,9 @@
 {
-  "branch_target_mapping": {},
+  "branch_target_mapping": {
+    "live": [
+      "Publish"
+    ]
+  },
   "branches_to_filter": [],
   "continue_with_document_error": true,
   "contribution_branch_mappings": {},
