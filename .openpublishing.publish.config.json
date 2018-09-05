@@ -1,5 +1,9 @@
 {
-  "branch_target_mapping": {},
+  "branch_target_mapping": {
+    "live": [
+      "Publish"
+    ]
+  },
   "branches_to_filter": [],
   "contribution_branch_mappings": {},
   "dependent_repositories": [
@@ -12,10 +16,10 @@
   ],
   "docsets_to_publish": [
     {
-      "build_entry_point": "op",
+      "build_entry_point": "docs",
       "build_output_subfolder": "test-configuration1",
-      "build_source_folder": "eden20180903",
-      "docset_name": "eden20180903",
+      "build_source_folder": "EdenTestNewLocale",
+      "docset_name": "EdenTestNewLocale",
       "locale": "en-us",
       "moniker_ranges": [],
       "monikers": [],
