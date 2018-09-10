@@ -19,7 +19,7 @@
       "build_entry_point": "docs",
       "build_output_subfolder": "test-configuration1",
       "build_source_folder": "test-configuration1",
-      "docset_name": "test-configuration-docsetname1",
+      "docset_name": "azure",
       "locale": "en-us",
       "moniker_ranges": [],
       "monikers": [],
